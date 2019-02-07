@@ -56,6 +56,9 @@ namespace GammaFour.UnderWriter.Loader
                     Console.WriteLine($"{index.Message}: {loadTime / 1000.0: 0.000} seconds.");
                 }
             }
+
+            Console.WriteLine("Hit any key to exit");
+            Console.ReadKey();
         }
     }
 }
