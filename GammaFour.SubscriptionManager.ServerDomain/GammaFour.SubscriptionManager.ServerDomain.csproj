@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GammaFour.Data" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Controllers\Domain.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Domain.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="Domain.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Domain.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Controllers\Domain.xsd">
+      <Generator>RestApiGenerator</Generator>
+      <LastGenOutput>Domain.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Domain.xsd">
+      <Generator>ServerDataModelGenerator</Generator>
+      <LastGenOutput>Domain.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,66 @@
+﻿[
+  [
+    {
+      "configurationId": "Default",
+      "buyerId": { "buyerExternalKey": { "mnemonic": "032-23-3812" } },
+      "dateCreated": "5/16/2016 4:59:22 PM",
+      "dateModified": "5/16/2016 4:59:22 PM",
+      "offeringId": { "offeringExternalKey": { "mnemonic": "CITI18.3-20-22" } },
+      "subscriptionValue": "375000"
+    },
+    {
+      "configurationId": "Default",
+      "buyerId": { "buyerExternalKey": { "mnemonic": "808-02-4293" } },
+      "dateCreated": "5/16/2016 4:59:22 PM",
+      "dateModified": "5/16/2016 4:59:22 PM",
+      "externalId0": "CITI002",
+      "offeringId": { "offeringExternalKey": { "mnemonic": "CITI18.3-20-22" } },
+      "subscriptionValue": "750000"
+    },
+    {
+      "configurationId": "Default",
+      "buyerId": { "buyerExternalKey": { "mnemonic": "993-23-2428" } },
+      "dateCreated": "5/16/2016 4:59:22 PM",
+      "dateModified": "5/16/2016 4:59:22 PM",
+      "externalId0": "CITI003",
+      "offeringId": { "offeringExternalKey": { "mnemonic": "CITI18.3-20-22" } },
+      "subscriptionValue": "375000"
+    },
+    {
+      "configurationId": "Default",
+      "buyerId": { "buyerExternalKey": { "mnemonic": "993-23-2428" } },
+      "dateCreated": "5/16/2016 4:59:22 PM",
+      "dateModified": "5/16/2016 4:59:22 PM",
+      "externalId0": "DISC001",
+      "offeringId": { "offeringExternalKey": { "mnemonic": "DISCOVER14.3-1-23" } },
+      "subscriptionValue": "750000"
+    },
+    {
+      "configurationId": "Default",
+      "buyerId": { "buyerExternalKey": { "mnemonic": "032-23-3812" } },
+      "dateCreated": "5/16/2016 4:59:22 PM",
+      "dateModified": "5/16/2016 4:59:22 PM",
+      "externalId0": "DISC002",
+      "offeringId": { "offeringExternalKey": { "mnemonic": "DISCOVER14.3-1-23" } },
+      "subscriptionValue": "250000"
+    },
+    {
+      "configurationId": "Default",
+      "buyerId": { "buyerExternalKey": { "mnemonic": "032-23-3812" } },
+      "dateCreated": "5/16/2016 4:59:22 PM",
+      "dateModified": "5/16/2016 4:59:22 PM",
+      "externalId0": "SUNT001",
+      "offeringId": { "offeringExternalKey": { "mnemonic": "SUNTRUST17.2-16-20" } },
+      "subscriptionValue": "462000"
+    }
+  ],
+  {
+    "configurationId": "Default",
+    "buyerId": { "buyerExternalKey": { "mnemonic": "993-23-2428" } },
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "externalId0": "SUNT001",
+    "offeringId": { "offeringExternalKey": { "mnemonic": "SUNTRUST17.2-16-20" } },
+    "subscriptionValue": "714000"
+  }
+]

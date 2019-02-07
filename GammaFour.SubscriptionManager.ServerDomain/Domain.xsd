@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Domain" targetNamespace="http://tempuri.org/Domain.xsd" xmlns="http://tempuri.org/Domain.xsd" xmlns:mstns="http://tempuri.org/Domain.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gfdata="urn:schemas-gamma-four-com:xml-gfdata">
+  <xs:element name="Domain">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Buyer" gfdata:verbs="Delete,Get,Put">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Address1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BuyerId" gfdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="City">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="64" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CountryId" type="xs:int" />
+              <xs:element name="DateCreated" type="xs:dateTime" />
+              <xs:element name="DateModified" type="xs:dateTime" />
+              <xs:element name="Email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mnemonic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="64" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PostalCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimaryContact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProvinceId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Country" gfdata:verbs="Delete,Get,Put">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CountryCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CountryId" gfdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="64" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Offering" gfdata:verbs="Delete,Get,Put">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Age" type="xs:int" />
+              <xs:element name="Coupon" type="xs:double" />
+              <xs:element name="DateCreated" type="xs:dateTime" />
+              <xs:element name="DateModified" type="xs:dateTime" />
+              <xs:element name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FaceValue" type="xs:decimal" />
+              <xs:element name="FicoScore" type="xs:decimal" />
+              <xs:element name="MarketValue" type="xs:decimal" />
+              <xs:element name="MaturityDate" type="xs:dateTime" />
+              <xs:element name="Mnemonic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="64" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OfferingId" gfdata:AutoIncrement="true" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Province" gfdata:verbs="Delete,Get,Put">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CountryCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CountryId" type="xs:int" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="64" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProvinceId" gfdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="RegionId" type="xs:int" minOccurs="0" />
+              <xs:element name="Short" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Region" gfdata:verbs="Delete,Get,Put">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CountryCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CountryId" type="xs:int" />
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="64" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegionId" gfdata:AutoIncrement="true" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Subscription" gfdata:verbs="Delete,Get,Post">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BuyerId" type="xs:int" />
+              <xs:element name="OfferingId" type="xs:int" />
+              <xs:element name="SubscriptionId" gfdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="SubscriptionValue" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="BuyerExternalKey">
+      <xs:selector xpath=".//mstns:Buyer" />
+      <xs:field xpath="mstns:Mnemonic" />
+    </xs:unique>
+    <xs:unique name="BuyerKey" gfdata:IsPrimaryKey="true">
+      <xs:selector xpath=".//mstns:Buyer" />
+      <xs:field xpath="mstns:BuyerId" />
+    </xs:unique>
+    <xs:unique name="CountryExternalKey">
+      <xs:selector xpath=".//mstns:Country" />
+      <xs:field xpath="mstns:CountryCode" />
+    </xs:unique>
+    <xs:unique name="CountryKey" gfdata:IsPrimaryKey="true">
+      <xs:selector xpath=".//mstns:Country" />
+      <xs:field xpath="mstns:CountryId" />
+    </xs:unique>
+    <xs:unique name="OfferingExternalKey">
+      <xs:selector xpath=".//mstns:Offering" />
+      <xs:field xpath="mstns:Mnemonic" />
+    </xs:unique>
+    <xs:unique name="OfferingKey" gfdata:IsPrimaryKey="true">
+      <xs:selector xpath=".//mstns:Offering" />
+      <xs:field xpath="mstns:OfferingId" />
+    </xs:unique>
+    <xs:unique name="ProvinceExternalKey">
+      <xs:selector xpath=".//mstns:Province" />
+      <xs:field xpath="mstns:Name" />
+      <xs:field xpath="mstns:CountryCode" />
+    </xs:unique>
+    <xs:unique name="ProvinceKey" gfdata:IsPrimaryKey="true">
+      <xs:selector xpath=".//mstns:Province" />
+      <xs:field xpath="mstns:ProvinceId" />
+    </xs:unique>
+    <xs:unique name="RegionExternalKey">
+      <xs:selector xpath=".//mstns:Region" />
+      <xs:field xpath="mstns:Name" />
+      <xs:field xpath="mstns:CountryCode" />
+    </xs:unique>
+    <xs:unique name="RegionKey" gfdata:IsPrimaryKey="true">
+      <xs:selector xpath=".//mstns:Region" />
+      <xs:field xpath="mstns:RegionId" />
+    </xs:unique>
+    <xs:unique name="SubscriptionKey" gfdata:IsPrimaryKey="true">
+      <xs:selector xpath=".//mstns:Subscription" />
+      <xs:field xpath="mstns:SubscriptionId" />
+    </xs:unique>
+    <xs:keyref name="BuyerSubscriptionBuyerIdKey" refer="BuyerKey">
+      <xs:selector xpath=".//mstns:Subscription" />
+      <xs:field xpath="mstns:BuyerId" />
+    </xs:keyref>
+    <xs:keyref name="CountryBuyerCountryIdKey" refer="CountryKey">
+      <xs:selector xpath=".//mstns:Buyer" />
+      <xs:field xpath="mstns:CountryId" />
+    </xs:keyref>
+    <xs:keyref name="CountryProvinceKey" refer="CountryKey">
+      <xs:selector xpath=".//mstns:Province" />
+      <xs:field xpath="mstns:CountryId" />
+    </xs:keyref>
+    <xs:keyref name="CountryRegionKey" refer="CountryKey">
+      <xs:selector xpath=".//mstns:Region" />
+      <xs:field xpath="mstns:CountryId" />
+    </xs:keyref>
+    <xs:keyref name="OfferingSubscriptionOfferingIdKey" refer="OfferingKey">
+      <xs:selector xpath=".//mstns:Subscription" />
+      <xs:field xpath="mstns:OfferingId" />
+    </xs:keyref>
+    <xs:keyref name="ProvinceBuyerProvinceIdKey" refer="ProvinceKey">
+      <xs:selector xpath=".//mstns:Buyer" />
+      <xs:field xpath="mstns:ProvinceId" />
+    </xs:keyref>
+    <xs:keyref name="RegionProvinceRegionIdKey" refer="RegionKey">
+      <xs:selector xpath=".//mstns:Province" />
+      <xs:field xpath="mstns:RegionId" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

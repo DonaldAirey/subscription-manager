@@ -1,0 +1,55 @@
+﻿[
+  {
+    "api": "api/subscriptions",
+    "isDisabled": "false",
+    "message": "Delete Subscriptions",
+    "verb": "Delete"
+  },
+  {
+    "api": "api/countries/countryExternalKey",
+    "isDisabled": "false",
+    "key": "countryCode",
+    "message": "Create Countries",
+    "path": "..\\..\\..\\Data\\Country.json",
+    "verb": "Put"
+  },
+  {
+    "api": "api/regions/regionExternalKey",
+    "isDisabled": "false",
+    "key": "name, countryCode",
+    "message": "Create Regions",
+    "path": "..\\..\\..\\Data\\Region.json",
+    "verb": "Put"
+  },
+  {
+    "api": "api/provinces/provinceExternalKey",
+    "isDisabled": "false",
+    "key": "name, countryCode",
+    "message": "Create Provinces",
+    "path": "..\\..\\..\\Data\\Province.json",
+    "verb": "Put"
+  },
+  {
+    "api": "api/buyers/buyerExternalKey",
+    "isDisabled": "false",
+    "key": "mnemonic",
+    "message": "Create Buyers",
+    "path": "..\\..\\..\\Data\\Buyer.json",
+    "verb": "Put"
+  },
+  {
+    "api": "api/offerings/offeringExternalKey",
+    "isDisabled": "false",
+    "key": "mnemonic",
+    "message": "Create Offerings",
+    "path": "..\\..\\..\\Data\\Offering.json",
+    "verb": "Put"
+  },
+  {
+    "api": "api/subscriptions",
+    "isDisabled": "false",
+    "message": "Create Subscriptions",
+    "path": "..\\..\\..\\Data\\Subscription.json",
+    "verb": "Post"
+  }
+]

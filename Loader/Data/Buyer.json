@@ -1,0 +1,47 @@
+﻿[
+  {
+    "address1": "12 Main Street",
+    "city": "Mayberry",
+    "countryId": { "countryExternalKey": { "countryCode": "US" } },
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "dateOfBirth": "1/5/1961",
+    "email": "andy.taylor@mayberrypd.gov",
+    "mnemonic": "032-23-3812",
+    "name": "Northern Equity",
+    "primaryContact": "Ken Taylor",
+    "phone": "(613) 555-1212",
+    "postalCode": "38201",
+    "provinceId": { "provinceExternalKey": { "name": "North Carolina", "countryCode": "US" } }
+  },
+  {
+    "address1": "1428 Elm Street",
+    "city": "Bedford Falls",
+    "countryId": { "countryExternalKey": { "countryCode": "US" } },
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "dateOfBirth": "6/22/1996",
+    "email": "george@baileysandl.com",
+    "mnemonic": "993-23-2428",
+    "name": "Pacific Funds",
+    "primaryContact": "George Stafford",
+    "phone": "(482) 555-1212",
+    "postalCode": "99032",
+    "provinceId": { "provinceExternalKey": { "name": "Ohio", "countryCode": "US" } }
+  },
+  {
+    "address1": "52 Park Avenue",
+    "city": "Chicago",
+    "countryId": { "countryExternalKey": { "countryCode": "US" } },
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "dateOfBirth": "6/22/1922",
+    "email": "jevans@chicagodpw.gov",
+    "mnemonic": "808-02-4293",
+    "name": "Clearwater Partners",
+    "primaryContact": "Alice Young",
+    "phone": "(483) 555-1212",
+    "postalCode": "83929",
+    "provinceId": { "provinceExternalKey": { "name": "Illinois", "countryCode": "US" } }
+  }
+]

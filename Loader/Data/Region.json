@@ -1,0 +1,307 @@
+﻿[
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Amazonas"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Ancash"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Apurímac"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Arequipa"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "autonomous"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Ayacucho"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Barisal"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Beni"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Cajamarca"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Callao"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Chittagong"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Chuquisaca"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Cochabamba"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Cusco"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Dhaka"
+  },
+  {
+    "countryCode": "GB",
+    "countryId": { "countryExternalKey": { "countryCode": "GB" } },
+    "name": "England"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Huancavelica"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Huánuco"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "I Tarapacá"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Ica"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "II Antofagasta"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "III Atacama"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "IV Coquimbo"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "IX Araucanía"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Junín"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Khulna"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "La Libertad"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "La Paz"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Lambayeque"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Lima"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Loreto"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Madre de Dios"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Moquegua"
+  },
+  {
+    "countryCode": "GB",
+    "countryId": { "countryExternalKey": { "countryCode": "GB" } },
+    "name": "Northern Ireland"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Oruro"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Pando"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Pasco"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Piura"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Potosí"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Puno"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Rajshahi"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Rangpur"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "RM Santiago Metropolitan"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "San Martín"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Santa Cruz"
+  },
+  {
+    "countryCode": "GB",
+    "countryId": { "countryExternalKey": { "countryCode": "GB" } },
+    "name": "Scotland"
+  },
+  {
+    "countryCode": "BD",
+    "countryId": { "countryExternalKey": { "countryCode": "BD" } },
+    "name": "Sylhet"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Tacna"
+  },
+  {
+    "countryCode": "BO",
+    "countryId": { "countryExternalKey": { "countryCode": "BO" } },
+    "name": "Tarija"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Tumbes"
+  },
+  {
+    "countryCode": "PE",
+    "countryId": { "countryExternalKey": { "countryCode": "PE" } },
+    "name": "Ucayali"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "V Valparaíso"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "VI O'Higgins"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "VII Maule"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "VIII Biobío"
+  },
+  {
+    "countryCode": "GB",
+    "countryId": { "countryExternalKey": { "countryCode": "GB" } },
+    "name": "Wales"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "X Los Lagos"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "XI Aisén"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "XII Magallanes"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "XIV Los Ríos"
+  },
+  {
+    "countryCode": "CL",
+    "countryId": { "countryExternalKey": { "countryCode": "CL" } },
+    "name": "XV Arica and Parinacota"
+  }
+]

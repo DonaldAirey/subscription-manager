@@ -1,0 +1,58 @@
+﻿[
+  {
+    "age": "190",
+    "configurationId": "Default",
+    "coupon": "0.185",
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "description": "10 MM Porfolio of Citibank 8.5% Credit Card Debt 3/20/2022",
+    "mnemonic": "CITI18.3-20-22",
+    "faceValue": "10000000",
+    "ficoScore": "550",
+    "marketValue": "1500000",
+    "maturityDate": "3/20/2022",
+    "name": "Citibank 18.5 CC"
+  },
+  {
+    "age": "210",
+    "configurationId": "Default",
+    "coupon": "0.143",
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "description": "25 MM Porfolio of Discover 10.33% CC 1/23",
+    "mnemonic": "DISCOVER14.3-1-23",
+    "faceValue": "25000000",
+    "ficoScore": "450",
+    "marketValue": "1500000",
+    "maturityDate": "1/1/2023",
+    "name": "Discover 25MM CC"
+  },
+  {
+    "age": "260",
+    "configurationId": "Default",
+    "coupon": "0.128",
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "description": "6 MM Chase 11.8% Fresh Paper 3 Year",
+    "mnemonic": "CHASE12.8-8-20",
+    "faceValue": "6250000",
+    "ficoScore": "460",
+    "marketValue": "500000",
+    "maturityDate": "8/16/2020",
+    "name": "Chase 6.25MM 12.8%"
+  },
+  {
+    "age": "554",
+    "configurationId": "Default",
+    "coupon": "0.172",
+    "dateCreated": "5/16/2016 4:59:22 PM",
+    "dateModified": "5/16/2016 4:59:22 PM",
+    "description": "Sun Trust 30MM 17.2%",
+    "mnemonic": "SUNTRUST17.2-16-20",
+    "faceValue": "30000000",
+    "ficoScore": "420",
+    "marketValue": "2100000",
+    "maturityDate": "12/1/2025",
+    "name": "Sun Trust 30MM 17.2%"
+  }
+]
